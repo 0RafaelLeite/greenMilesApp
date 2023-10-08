@@ -1,0 +1,99 @@
+/* App.css (ou seu arquivo de estilo) 
+font-family: 'Inter', sans-serif;
+font-family: 'Italiana', serif;
+*/
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/loginBackGround.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Inter', sans-serif;
+  }
+
+
+  #loginBox{
+      background-color: #ffffff;
+      border:10px solid #8E9B66;
+      border-radius: 50px;
+      padding: 10px 25px;
+  }
+  
+  .Login {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+
+
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 50%;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    opacity: 50%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+  }
+
+.loginInput{
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+button {
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#login{
+    background-color:#2B4521;
+    
+}
+
+#cadastre-se{
+    background-color: #8D9B66;
+}
+
+  
